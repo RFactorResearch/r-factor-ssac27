@@ -1,0 +1,12 @@
+endpoint_id,family,tier,description,eligible_n,statistic,value,group_or_stratum,count,proportion,inferential_status,q1,q3
+A1_2,A1,DESCRIPTIVE_ONLY,absolute_cap_share_gap vs absolute_halftime_margin,68,Spearman rho point estimate only,0.30058195789899489,,,,DESCRIPTIVE_ONLY_NO_CI_NO_P_VALUE_NO_MULTIPLICITY,,
+A1_6,A1,DESCRIPTIVE_ONLY,absolute_cap_share_gap vs permanent_winner_lead_fraction,68,Spearman rho point estimate only,-0.28717850838736769,,,,DESCRIPTIVE_ONLY_NO_CI_NO_P_VALUE_NO_MULTIPLICITY,,
+CTX_D,CONTEXT,ALWAYS_REPORTED_CONTEXT,CAP controller vs eventual winner,47,agreement count context only,42,overall,42,0.8936170212765957,CONTEXT_ONLY_NO_INFERENTIAL_STATISTIC,,
+CTX_F,CONTEXT,ALWAYS_REPORTED_CONTEXT,CAP controller vs higher seed,47,agreement count context only,32,overall,32,0.6808510638297872,CONTEXT_ONLY_NO_INFERENTIAL_STATISTIC,,
+CTX_E,CONTEXT,COMPOSITION,CAP controller vs home team composition,47,home CAP controller count,25,HOME,25,0.5319148936170213,CONTEXT_ONLY_NO_INFERENTIAL_STATISTIC,,
+CTX_E,CONTEXT,COMPOSITION,CAP controller vs home team composition,47,away CAP controller count,22,AWAY,22,0.46808510638297873,CONTEXT_ONLY_NO_INFERENTIAL_STATISTIC,,
+C1_A_STRAT_ONE_POSSESSION,DESCRIPTIVE_STRATIFICATION,DESCRIPTIVE_ONLY_ALWAYS_REPORTED,C1_A agreement by one-possession status,3,agreement count and eligible n only,0,one-possession,0,0.0,DESCRIPTIVE_ONLY_NO_CI_NO_P_VALUE_NO_MULTIPLICITY,,
+C1_A_STRAT_ONE_POSSESSION,DESCRIPTIVE_STRATIFICATION,DESCRIPTIVE_ONLY_ALWAYS_REPORTED,C1_A agreement by one-possession status,44,agreement count and eligible n only,36,not one-possession,36,0.8181818181818182,DESCRIPTIVE_ONLY_NO_CI_NO_P_VALUE_NO_MULTIPLICITY,,
+B1_3,B1,DESCRIPTIVE_ONLY_ALWAYS_REPORTED,absolute_cap_share_gap: overtime vs regulation-only,3,group n median IQR only,0.14130400000000001,overtime,3,,DESCRIPTIVE_ONLY_NO_CI_NO_P_VALUE_NO_MULTIPLICITY,0.137903,0.19497600000000001
+B1_3,B1,DESCRIPTIVE_ONLY_ALWAYS_REPORTED,absolute_cap_share_gap: overtime vs regulation-only,65,group n median IQR only,0.14359,regulation-only,65,,DESCRIPTIVE_ONLY_NO_CI_NO_P_VALUE_NO_MULTIPLICITY,0.058201000000000003,0.26041700000000001
+larger_largest_lead_descriptive_column,CONTEXT,DESCRIPTIVE_COLUMN_ALWAYS_REPORTED,larger_largest_lead descriptive input column,68,median with IQR,18,overall,68,,DESCRIPTIVE_ONLY_NO_CI_NO_P_VALUE_NO_MULTIPLICITY,14.75,27.25

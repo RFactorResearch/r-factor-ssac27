@@ -1,0 +1,368 @@
+{
+  "analysis_label": "POST-HOC EXPLORATORY CONSTRUCT-VALIDATION ANALYSIS",
+  "cap": {
+    "controller_winner_agreement": 0.8936170212765957,
+    "controller_winner_agreement_k": 42,
+    "controller_winner_agreement_n": 47,
+    "determinate_n": 47,
+    "indeterminate_n": 21,
+    "rfactor_cap_agreement": 0.6304347826086957,
+    "rfactor_cap_agreement_k": 29,
+    "rfactor_cap_agreement_n": 46,
+    "rfactor_winner_agreement": 0.6567164179104478,
+    "rfactor_winner_agreement_k": 44,
+    "rfactor_winner_agreement_n": 67
+  },
+  "definitions": {
+    "clutch_game": "at least one official PBP score state with absolute margin <= 5 during the final 5:00 of regulation or any overtime",
+    "duration_led": "seconds integrated between official scoring states; time before first score is tied",
+    "lead_changes": "switches between non-tied leaders in chronologically ordered official scoring states; ties do not count",
+    "one_possession_game": "absolute official final margin <= 3 points",
+    "permanent_winner_lead": "first strict lead by eventual winner after which every later official scoring state also shows that winner strictly ahead"
+  },
+  "explicit_calls": 67,
+  "indeterminate_comparisons": {
+    "absolute_control_share_difference": {
+      "determinate": {
+        "max": 0.5176470000000001,
+        "mean": 0.23592453191489365,
+        "median": 0.22513100000000003,
+        "min": 0.05641099999999999,
+        "n": 47,
+        "q1": 0.1409645,
+        "q3": 0.3048985,
+        "sd": 0.11508392788022727
+      },
+      "indeterminate": {
+        "max": 0.12953399999999998,
+        "mean": 0.042988047619047606,
+        "median": 0.03243199999999996,
+        "min": 0.0,
+        "n": 21,
+        "q1": 0.015463999999999978,
+        "q3": 0.058201,
+        "sd": 0.039569447271191674
+      },
+      "mann_whitney_p_two_sided": 5.680888682924578e-10,
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "clutch_game": {
+      "determinate": {
+        "available_n": 47,
+        "rate": 0.3404255319148936,
+        "yes_k": 16
+      },
+      "fisher_exact_p_two_sided": 0.18556844742811407,
+      "indeterminate": {
+        "available_n": 21,
+        "rate": 0.5238095238095238,
+        "yes_k": 11
+      },
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "final_margin": {
+      "determinate": {
+        "max": 51.0,
+        "mean": 17.04255319148936,
+        "median": 14.0,
+        "min": 1.0,
+        "n": 47,
+        "q1": 8.0,
+        "q3": 22.5,
+        "sd": 11.699047614170604
+      },
+      "indeterminate": {
+        "max": 32.0,
+        "mean": 11.047619047619047,
+        "median": 9.0,
+        "min": 1.0,
+        "n": 21,
+        "q1": 6.0,
+        "q3": 15.0,
+        "sd": 8.021696768615667
+      },
+      "mann_whitney_p_two_sided": 0.05160958235228886,
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "halftime_margin": {
+      "determinate": {
+        "max": 47.0,
+        "mean": 11.106382978723405,
+        "median": 9.0,
+        "min": 0.0,
+        "n": 47,
+        "q1": 6.5,
+        "q3": 15.0,
+        "sd": 8.61301856532659
+      },
+      "indeterminate": {
+        "max": 22.0,
+        "mean": 7.380952380952381,
+        "median": 6.0,
+        "min": 0.0,
+        "n": 21,
+        "q1": 4.0,
+        "q3": 8.0,
+        "sd": 6.0122890023367175
+      },
+      "mann_whitney_p_two_sided": 0.041037574094099444,
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "higher_seed_won": {
+      "determinate": {
+        "available_n": 47,
+        "rate": 0.6595744680851063,
+        "yes_k": 31
+      },
+      "fisher_exact_p_two_sided": 0.5884893880590865,
+      "indeterminate": {
+        "available_n": 21,
+        "rate": 0.5714285714285714,
+        "yes_k": 12
+      },
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "home_team_won": {
+      "determinate": {
+        "available_n": 47,
+        "rate": 0.425531914893617,
+        "yes_k": 20
+      },
+      "fisher_exact_p_two_sided": 0.5989875370480688,
+      "indeterminate": {
+        "available_n": 21,
+        "rate": 0.5238095238095238,
+        "yes_k": 11
+      },
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "largest_lead": {
+      "determinate": {
+        "max": 61.0,
+        "mean": 23.19148936170213,
+        "median": 20.0,
+        "min": 7.0,
+        "n": 47,
+        "q1": 14.5,
+        "q3": 29.0,
+        "sd": 11.683578773259987
+      },
+      "indeterminate": {
+        "max": 32.0,
+        "mean": 18.761904761904763,
+        "median": 18.0,
+        "min": 9.0,
+        "n": 21,
+        "q1": 15.0,
+        "q3": 21.0,
+        "sd": 5.999206296709273
+      },
+      "mann_whitney_p_two_sided": 0.2699908592843232,
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "lead_changes": {
+      "determinate": {
+        "max": 25.0,
+        "mean": 6.361702127659575,
+        "median": 5.0,
+        "min": 0.0,
+        "n": 47,
+        "q1": 2.0,
+        "q3": 9.5,
+        "sd": 5.264423383573657
+      },
+      "indeterminate": {
+        "max": 10.0,
+        "mean": 5.571428571428571,
+        "median": 6.0,
+        "min": 0.0,
+        "n": 21,
+        "q1": 4.0,
+        "q3": 8.0,
+        "sd": 2.9252594512526335
+      },
+      "mann_whitney_p_two_sided": 0.8520738306374174,
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "loser_led_fraction": {
+      "determinate": {
+        "max": 0.9709027777777777,
+        "mean": 0.18445156730897894,
+        "median": 0.11238993710691823,
+        "min": 0.0,
+        "n": 47,
+        "q1": 0.03125,
+        "q3": 0.22022569444444445,
+        "sd": 0.21912031954474265
+      },
+      "indeterminate": {
+        "max": 0.9114583333333334,
+        "mean": 0.2744510582010582,
+        "median": 0.2107638888888889,
+        "min": 0.0,
+        "n": 21,
+        "q1": 0.015277777777777777,
+        "q3": 0.46968750000000004,
+        "sd": 0.28819545674584757
+      },
+      "mann_whitney_p_two_sided": 0.29713825779555414,
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "one_possession_game": {
+      "determinate": {
+        "available_n": 47,
+        "rate": 0.06382978723404255,
+        "yes_k": 3
+      },
+      "fisher_exact_p_two_sided": 0.36347884446545553,
+      "indeterminate": {
+        "available_n": 21,
+        "rate": 0.14285714285714285,
+        "yes_k": 3
+      },
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "overtime": {
+      "determinate": {
+        "available_n": 47,
+        "rate": 0.06382978723404255,
+        "yes_k": 3
+      },
+      "fisher_exact_p_two_sided": 0.5470308883390536,
+      "indeterminate": {
+        "available_n": 21,
+        "rate": 0.0,
+        "yes_k": 0
+      },
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "permanent_winner_lead_fraction": {
+      "determinate": {
+        "max": 0.9992708333333333,
+        "mean": 0.4748764503361527,
+        "median": 0.4263888888888889,
+        "min": 0.005555555555555556,
+        "n": 47,
+        "q1": 0.16024305555555557,
+        "q3": 0.8074652777777778,
+        "sd": 0.3353252678912687
+      },
+      "indeterminate": {
+        "max": 0.9967013888888889,
+        "mean": 0.5903323412698414,
+        "median": 0.5385416666666667,
+        "min": 0.005208333333333333,
+        "n": 21,
+        "q1": 0.39895833333333336,
+        "q3": 0.8975694444444444,
+        "sd": 0.33359001864066434
+      },
+      "mann_whitney_p_two_sided": 0.20968887818001436,
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    },
+    "rfactor_matched_eventual_winner": {
+      "determinate": {
+        "available_n": 46,
+        "rate": 0.6521739130434783,
+        "yes_k": 30
+      },
+      "fisher_exact_p_two_sided": 1.0,
+      "indeterminate": {
+        "available_n": 21,
+        "rate": 0.6666666666666666,
+        "yes_k": 14
+      },
+      "missing_determinate": 1,
+      "missing_indeterminate": 0
+    },
+    "winner_led_fraction": {
+      "determinate": {
+        "max": 0.9944444444444445,
+        "mean": 0.7680367219499777,
+        "median": 0.8169811320754717,
+        "min": 0.018680555555555554,
+        "n": 47,
+        "q1": 0.7252256944444444,
+        "q3": 0.9392361111111112,
+        "sd": 0.2332782770879906
+      },
+      "indeterminate": {
+        "max": 0.9947916666666666,
+        "mean": 0.6792757936507937,
+        "median": 0.7336805555555556,
+        "min": 0.0328125,
+        "n": 21,
+        "q1": 0.4973958333333333,
+        "q3": 0.9322916666666666,
+        "sd": 0.3001094826761129
+      },
+      "mann_whitney_p_two_sided": 0.35969156740368724,
+      "missing_determinate": 0,
+      "missing_indeterminate": 0
+    }
+  },
+  "no_call": {
+    "away_team": "NYK",
+    "home_team": "PHI",
+    "nba_game_id": "0042500214",
+    "official_winner": "NYK"
+  },
+  "paired_benchmark_tests": {
+    "ALWAYS_HIGHER_SEED": {
+      "discordant_rfactor_correct_benchmark_incorrect": 6,
+      "discordant_rfactor_incorrect_benchmark_correct": 4,
+      "exact_mcnemar_p_two_sided": 0.75390625,
+      "holm_adjusted_p": 0.75390625,
+      "pair_n": 67
+    },
+    "ALWAYS_HOME": {
+      "discordant_rfactor_correct_benchmark_incorrect": 23,
+      "discordant_rfactor_incorrect_benchmark_correct": 10,
+      "exact_mcnemar_p_two_sided": 0.03508203336969018,
+      "holm_adjusted_p": 0.07016406673938036,
+      "pair_n": 67
+    }
+  },
+  "study_games": 68,
+  "winner_forecast_rules": [
+    {
+      "accuracy": 0.6567164179104478,
+      "correct_k": 44,
+      "eligible_n": 67,
+      "incorrect_n": 23,
+      "rule": "R_FACTOR",
+      "wilson_95_lower": 0.5373266459034898,
+      "wilson_95_upper": 0.7591099372723709
+    },
+    {
+      "accuracy": 0.4626865671641791,
+      "correct_k": 31,
+      "eligible_n": 67,
+      "incorrect_n": 36,
+      "rule": "ALWAYS_HOME",
+      "wilson_95_lower": 0.3485844371949035,
+      "wilson_95_upper": 0.580835423953701
+    },
+    {
+      "accuracy": 0.6268656716417911,
+      "correct_k": 42,
+      "eligible_n": 67,
+      "incorrect_n": 25,
+      "rule": "ALWAYS_HIGHER_SEED",
+      "wilson_95_lower": 0.5071540719064641,
+      "wilson_95_upper": 0.7328184001882802
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.6304347826086957,
+  "all_games": 68,
+  "alpha": 0.05,
+  "analysis_id": "H2_CATEGORICAL_PRIMARY",
+  "analysis_role": "PRIMARY",
+  "cap_determinate_games": 47,
+  "cap_indeterminate_games": 21,
+  "cap_not_adjudicable_games": 0,
+  "confidence_level": 0.95,
+  "correct_k": 29,
+  "eligible_n": 46,
+  "exact_binomial_p_two_sided": 0.10380535550410741,
+  "explicit_verified_call_games": 67,
+  "incorrect_n": 17,
+  "no_call_games": 1,
+  "primary_support_decision": "INCONCLUSIVE",
+  "timing_unverifiable_games": 0,
+  "wilson_ci_lower": 0.48600096420027483,
+  "wilson_ci_upper": 0.7547624541165167
+}

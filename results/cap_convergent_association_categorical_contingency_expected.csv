@@ -1,0 +1,13 @@
+endpoint_id,cap_controller_location,comparator_location,count,table_orientation
+C1_A,HOME,HOME,19,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_A,HOME,AWAY,6,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_A,AWAY,HOME,5,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_A,AWAY,AWAY,17,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_B,HOME,HOME,18,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_B,HOME,AWAY,7,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_B,AWAY,HOME,5,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_B,AWAY,AWAY,15,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_C,HOME,HOME,19,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_C,HOME,AWAY,5,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_C,AWAY,HOME,2,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY
+C1_C,AWAY,AWAY,20,rows CAP controller HOME/AWAY by columns comparator HOME/AWAY

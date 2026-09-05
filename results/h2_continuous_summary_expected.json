@@ -1,0 +1,20 @@
+{
+  "B": 9999,
+  "analysis_id": "H2_CONTINUOUS_KEY_SECONDARY",
+  "cluster_count": 13,
+  "eligible_n": 67,
+  "exact_zero_n": 1,
+  "grid_max": 1.0,
+  "grid_min": -1.0,
+  "grid_step": 0.001,
+  "mean_signed_margin": 0.04810920895522389,
+  "median_signed_margin": 0.028090000000000004,
+  "missing_share_n": 0,
+  "proportion_strictly_above_zero": 0.5522388059701493,
+  "q1": -0.11299449999999997,
+  "q3": 0.21880249999999996,
+  "seed": 2026082404,
+  "wcr_ci_lower": -0.033,
+  "wcr_ci_upper": 0.136,
+  "wcr_p_two_sided": 0.2459
+}

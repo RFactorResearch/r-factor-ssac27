@@ -1,0 +1,22 @@
+endpoint_id,family,purpose,replicates_planned,replicates_generated,invalid_or_constant_rank_replicates,invalid_or_constant_rank_proportion,exclusion_escalation_status,interval_status,p_value_exceedance_count,p_value_method
+C1_A,C1,kappa_appendix_bca_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+C1_B,C1,kappa_appendix_bca_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+C1_C,C1,kappa_appendix_bca_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+S1_1,S1,spearman_bca_and_percentile_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+S1_1,S1,spearman_y_only_permutation,10000,10000,0,0,PASS,not applicable,0,two-sided absolute-statistic plus-one Monte Carlo
+S1_2,S1,spearman_bca_and_percentile_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+S1_2,S1,spearman_y_only_permutation,10000,10000,0,0,PASS,not applicable,1,two-sided absolute-statistic plus-one Monte Carlo
+S1_3,S1,spearman_bca_and_percentile_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+S1_3,S1,spearman_y_only_permutation,10000,10000,0,0,PASS,not applicable,0,two-sided absolute-statistic plus-one Monte Carlo
+S1_4,S1,spearman_bca_and_percentile_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+S1_4,S1,spearman_y_only_permutation,10000,10000,0,0,PASS,not applicable,0,two-sided absolute-statistic plus-one Monte Carlo
+A1_1,A1,spearman_bca_and_percentile_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+A1_1,A1,spearman_y_only_permutation,10000,10000,0,0,PASS,not applicable,14,two-sided absolute-statistic plus-one Monte Carlo
+A1_3,A1,spearman_bca_and_percentile_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+A1_3,A1,spearman_y_only_permutation,10000,10000,0,0,PASS,not applicable,2766,two-sided absolute-statistic plus-one Monte Carlo
+A1_4,A1,spearman_bca_and_percentile_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+A1_4,A1,spearman_y_only_permutation,10000,10000,0,0,PASS,not applicable,45,two-sided absolute-statistic plus-one Monte Carlo
+A1_5,A1,spearman_bca_and_percentile_bootstrap,10000,10000,0,0,PASS,PASS,,not applicable
+A1_5,A1,spearman_y_only_permutation,10000,10000,0,0,PASS,not applicable,8450,two-sided absolute-statistic plus-one Monte Carlo
+B1_1,B1,binary_group_mann_whitney_label_test,10000,10000,0,0,PASS,not applicable,1410,monte_carlo_binary_label_permutation_plus_one
+B1_2,B1,binary_group_mann_whitney_label_test,0,109453344,0,0,PASS,not applicable,,exact_label_permutation_dynamic_programming_with_average_ranks
