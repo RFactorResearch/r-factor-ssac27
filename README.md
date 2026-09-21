@@ -10,4 +10,8 @@ H2 categorical agreement is the study's sole primary hypothesis. H1 is secondary
 
 The historical blinded second statistical implementation concerned exploratory CAP association results. This repository supports the more limited downstream checks listed in the [reproducibility matrix](docs/reproducibility_matrix.md); see the [reproduction guide](docs/reproduction_guide.md) for the distinctions.
 
-No license is granted. The absence of a license means no reuse, redistribution, sublicensing, upload, or publication rights are provided by this repository.
+## Licensing and data scope
+
+Mark Barnekow/RFactorResearch retains ownership of the original materials in this repository. Original software and code, including `code/reproduce_downstream.py`, are licensed under the [MIT License](LICENSE). Original documentation and original or derived research-data materials in `data/` and `results/` are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE-DATA-DOCS). These express grants supersede the general no-license statement in `NOTICE.md` only for those scoped original materials; the third-party exclusions in that notice remain in effect.
+
+Third-party NBA and Cleaning the Glass materials are not relicensed or redistributed. NBA game IDs and source links identify official source material but do not grant rights in that material. Trademarks, project names, and logos are not licensed merely by publication of this repository. Intellectual property not actually contained in this repository, including proprietary forecast-generation and CAP classification-generation methods, is not released.
